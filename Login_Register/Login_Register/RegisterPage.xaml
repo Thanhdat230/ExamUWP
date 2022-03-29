@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="Login_Register.RegisterPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Login_Register"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:controls="using:WinUX.Xaml.Controls.Validation"
+    xmlns:rules="using:WinUX.Validation.Rules"
+    xmlns:validation="using:WinUX.Validation"
+    
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#273c75">
+        <!-- Validation Rules-->
+        <Grid.Resources>
+            <validation:ValidationRules x:Key="LengthCheck">
+                <validation:ValidationRules.Rules>
+                    <rules:CharaterLimit>
+                        
+                    </rules:CharaterLimit>
+                </validation:ValidationRules.Rules>
+            </validation:ValidationRules>
+        </Grid.Resources>
+    </Grid>
+</Page>

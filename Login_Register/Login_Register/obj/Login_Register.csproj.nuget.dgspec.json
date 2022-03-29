@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\thdat\\OneDrive\\Documents\\Fpt Aptech T2010M\\Sem 3\\Window Form Programing\\Exam\\Login_Register\\Login_Register\\Login_Register.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\thdat\\OneDrive\\Documents\\Fpt Aptech T2010M\\Sem 3\\Window Form Programing\\Exam\\Login_Register\\Login_Register\\Login_Register.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thdat\\OneDrive\\Documents\\Fpt Aptech T2010M\\Sem 3\\Window Form Programing\\Exam\\Login_Register\\Login_Register\\Login_Register.csproj",
+        "projectName": "Login_Register",
+        "projectPath": "C:\\Users\\thdat\\OneDrive\\Documents\\Fpt Aptech T2010M\\Sem 3\\Window Form Programing\\Exam\\Login_Register\\Login_Register\\Login_Register.csproj",
+        "packagesPath": "C:\\Users\\thdat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thdat\\OneDrive\\Documents\\Fpt Aptech T2010M\\Sem 3\\Window Form Programing\\Exam\\Login_Register\\Login_Register\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thdat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.13, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
